@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Best Tic-Tac-Toe
+        </title>
+        
+        <meta charset="UTF-8">
+        <meta name="description" content="Best Tic-Tac-Toe. P2P . For two person in one computer. Play TicTacToe game for free. Tic Tac Toe - Noughts and crosses - Xs and Os">
+        <meta name="keywords" content="besttictactoe.netlify.app,besttictactoe, Best, the best, free, tic-tac-toe, P2P, TicTacToe, Tic Tac Toe, game, ever, Xs and Os, netlify, web app, template, example, code">
+        <meta name="author" content="@pdostonh">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">  
+        
+        <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/wCEAP+EAACuAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIgEQIwAyMAMiEAEgMwIDMCIQASAzAgMwIgEQIwAyMAMiIiIiIiIiIiIwAyARAgEQIgMwIQASEAEiAzAhABIQASIwAyARAgEQIiIiIiIiIiIiARAjADIwAyIQASAzAgMwIhABIDMCAzAiARAjADIwAyIiIiIiIiIiIAAAAASYwAADJSAAAyUgAASYwAAAAAAAAyUgAASYwAAEmMAAAyUgAAAAAAAEmMAAAyUgAAMlIAAEmMAAAAAAAA" rel="icon" type="image/x-icon" />
+        <!--whether you find bug, it would be great if you to contact me: t.me/pidiksbot-->     
+    </head>
+    <body>
+        <h2>
+            TicTacToe
+        </h2>
+        <table id = "tbl">            
+            <tr>
+                <td  id="11"> 
+                    <input type="button" class = "btns" onclick="changeContent(11)" value="mine">                                                                         
+                </td>
+                <td id="12"> 
+                    <input type="button" class = "btns" onclick="changeContent(12)" value="mine">                     
+                </td>
+                <td id="13"> 
+                    <input type="button" class = "btns" onclick="changeContent(13)" value="mine">  
+                </td>
+            </tr>
+            <tr>
+                <td id="21"> 
+                    <input type="button" class = "btns" onclick="changeContent(21)" value="mine">                     
+                </td>
+                <td id="22">    
+                    <input type="button" class = "btns" onclick="changeContent(22)" value="mine">                  
+                </td>
+                <td id="23">   
+                    <input type="button" class = "btns" onclick="changeContent(23)" value="mine">                   
+                </td>
+            </tr>
+            <tr>
+                <td id="31">  
+                    <input type="button" class = "btns" onclick="changeContent(31)" value="mine">                    
+                </td>
+                <td id="32">    
+                    <input type="button" class = "btns" onclick="changeContent(32)" value="mine">                  
+                </td>
+                <td id="33"> 
+                    <input type="button" class = "btns" onclick="changeContent(33)" value="mine">                     
+                </td>
+            </tr>
+        </table>  
+        <input class = "starting" id="strt" type="button" onclick="start()" value="start">     
+        <div class = "starting" id="startres"></div>   
+        <div id = "restrt"></div>        
+    </body>
+    <script src="back-end.js"></script>
+</html>

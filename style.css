@@ -1,0 +1,40 @@
+table td {
+    border: 1px solid black;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: rgb(0, 214, 11);
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    margin-left: 2.77em;
+}
+#strt {
+    margin-left: 95px;
+    float: left;
+}
+
+#startres {
+    margin-left: 25px;
+    float: left;  
+    font-size: 2em;
+    margin-top: -8.5px;
+    
+}
+
+table {
+    float: left;
+}
+
+#tbl {
+    display:none;
+
+}
+
+#restrt {
+    
+    margin-left: -6em;
+    margin-top: 5em;
+    float: left;
+    
+}
