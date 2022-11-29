@@ -1,4 +1,4 @@
 # tictactoe
 TicTacToe game
 
-try here: besttictactoe.netlify.app
+[try here](https://besttictactoe.netlify.app)
